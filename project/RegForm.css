@@ -1,0 +1,200 @@
+*{
+ margin:0px;
+ padding:0px;
+ }
+body{
+background-color:#F0F0F0;
+ font-family:Tahoma, Geneva, sans-serif;  
+ }
+#container{
+  padding:10px;
+      padding-left:10px;
+	 width:550px;
+	 margin:auto;
+	 margin-top:80px;
+	 background-color:#B6B6B6;
+	 box-shadow:0 0 3px #999;
+	 color:#202020;
+	 border-style:solid;
+	 border-width:3px;
+	 border-color:#004687;
+ }
+#container_body{
+ padding:20px;
+ }
+.form_title{
+ font-size:35px;
+ color:#141823;
+ text-align:center;
+ padding:10px;
+ font-weight:500;
+ }
+.head_para{
+ font-size:19px;
+ color:#99a2a7;
+ text-align:center;
+ font-weight:normal;
+ }
+#form_name{
+ padding:25px 0 0 15px;
+ }
+.firstnameorlastname{
+  margin-right:20px;
+  margin:10px;
+	font-size:18px;
+	width:190px;
+	
+ }
+.input_name{
+ width:215px;
+ padding:5px;
+ font-size:18px;
+ margin-top:10px;
+	font-size:18px;
+	width:190px;
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+ }
+#email_form{
+ clear:both;
+ padding:15px 0 10px 0px;
+ }
+.input_email{
+ width:434px;
+ padding:5px;
+ font-size:18px;
+ margin:10px;
+	font-size:18px;
+	
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+ }
+ #address_form{
+ padding :15px 0 10px 0;
+
+resize:none;
+
+ }
+ .input_address{
+	 font-size:18px;
+margin:10px;
+	font-size:18px;
+	
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;	
+	resize:none;
+ }
+ #phone_form{
+	 padding:10px 0 10px 0;
+ }
+.input_phone{
+	font-size:18px;
+	width:150px;
+margin:10px;
+	font-size:18px;
+	width:190px;
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+	padding:5px;
+}
+ #password_form{
+ padding:10px 0 10px 0px;
+ }
+.input_password{
+ width:434px;
+ padding:5px;
+ margin:10px;
+	font-size:18px;
+		border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+ font-size:18px;
+ }
+#Re_password_form{
+ padding:10px 0 10px 0px;
+ }
+.input_re_password{
+ width:434px;
+ padding:5px;
+ margin:10px;
+	font-size:18px;
+	
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+ font-size:18px;
+ }
+#username_form{
+	padding:10px 0 10px 0;
+}
+.input_username{
+	width:250px;
+	padding:5px;
+	font-size:18px;
+	margin:10px;
+	font-size:18px;
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+}
+.birthday_title{
+ font-size:16px; 
+ 
+ font-weight:normal;
+ margin:10px;
+	font-size:18px;
+	width:190px;
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+ padding:0 0 10px 0;
+ }
+#birthdate_form{
+	padding:10px 0 10px 0;
+}
+.input_birthdate{
+	
+	padding:5px;
+	margin:10px;
+	font-size:18px;
+	
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+	width:180px;
+}
+ #radio_title{
+	 font-size:16px; 
+	 color:#8b919d; 
+	 font-weight:normal;
+	 padding:10px 0 0 0;
+ }
+#radio_button{
+
+ padding:10px 0 0 0;
+ }
+#sign_user{
+ width:100px;
+ font-size:14px;
+ color:#F0F0F0;
+ text-align:center;
+ background-color:#004687;
+ padding:10px;
+ margin-top:10px;
+ cursor: pointer;
+ display:block;
+	font-weight:bold;
+	text-transform:uppercase;
+	
+ }
+ #sign_user:hover{
+	 background-color:#B81D18;
+	 
+ }
+#errorBox{
+ color:#B81D18;
+ }

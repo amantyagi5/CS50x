@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Online Railway Reservation System</title>
+<link rel="stylesheet" type="text/css" href="HomeStyle.css" />
+<script type="text/javascript" src="SearchFormScript.js"></script>
+</head>
+
+<body>
+<div id="title"><img src="title.jpg" alt="title" width="100%" height="250px"></div>
+<div id="nav">
+  <ul>
+  <li><a href="SignIn.html">Sign In</a></li>
+  <li><a href="RegForm.html">Register</a></li>
+  </ul>
+ </div>
+<div id="container">
+      <center><h1>Train Search</h1></center>
+	  <div id="errorBox"></div>
+	 
+	  <div id="formx">
+	  
+	  <form name="form"  onSubmit="return Submit()" action="SearchTrain.php" method="POST">
+	   Enter Source:
+	  <div id="source_form">
+	      <input type="text" name="source" value="" class="input_source" >
+	  </div>
+	  Enter Destination:
+	  <div id="destination_form">
+	     <input type="text" name="destination" value="" class="input_destination" >
+	  </div>
+	  Select Date:
+        <div id="date_form">
+             <input type="date" name="date"  value="" class="input_date" >
+        </div>	
+      <div>
+        <center>
+		<input type="submit" id="search_train" name="submit" value="Search" /> </center>
+      </div>
+      </form>	  
+</div>
+</div>
+</body>
+</html>

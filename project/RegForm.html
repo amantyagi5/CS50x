@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" type="text/css" href="RegForm.css" />
+<script type="text/javascript" src="RegFormScript.js"></script>
+<body>
+<div id="title"><img src="title.jpg" alt="title" width="100%" height="250px"></div>
+<div id="emptyDiv"></div>
+<div id="description"></div>
+<!--container start-->
+<div id="container">
+  <div id="container_body">
+    <div>
+      <h2 class="form_title">New Passenger Registration </h2>
+      <br>
+    </div>
+    <!--Form  start-->
+    <div id="form_name">
+      <div class="firstnameorlastname">
+       <form name="form"  onSubmit="return Submit()" action="register.php" method="POST"> 
+	   
+       <div id="errorBox"></div>
+        <input type="text" name="Name" value="" placeholder="First Name"  class="input_name" >
+        <input type="text" name="LastName" value="" placeholder="Last Name" class="input_name" >
+       </div>
+      
+	  <div id="email_form">
+        <input type="text" name="Email" value=""  placeholder="Your Email" class="input_email">
+      </div>
+	  
+	 <div id="address_form">
+         <textarea  name="Address"  value="" placeholder="Residential Address" cols="41" rows="5" class="input_address" ></textarea>
+     </div>		
+
+     <div id="phone_form">
+         <input type="text" name="Phone" value="" placeholder="Contact Number" class="input_phone" >
+	 </div>    
+     
+      
+      <div id="birthdate_form">
+        <input type="text" name ="Birthday" value="" placeholder="DD/MM/YYYY" class="input_birthdate" >
+      </div>
+      <!--birthday details ends-->
+
+	     
+	  <div id="radio_button"> 
+         <input type="radio" name="sex" value="Female">
+        <label >Female</label>
+        &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="sex" value="Male">
+        <label >Male</label>
+      </div>
+	  
+	  <div id="username_form">
+	    <input type="username" name="Username" value="" placeholder="Choose Username" class="input_username" >
+		</div>
+	  
+	  <div id="password_form">
+	    <input type="password" name="Password" value="" placeholder="Password" class="input_password">
+	  </div>
+      
+      <div id="re_password_form">
+        <input type="password" name="Re_Password" value=""  placeholder="Re-enter Password" class="input_re_password">
+      </div>
+       
+	   <div>
+        <center>
+		 <input type="submit" id="sign_user" name="submit" value="Register"/> </center>
+      </div>
+     </form>
+    </div>
+    <!--form ends-->
+  </div>
+</div>
+<!--container ends-->
+
+</body>
+</html>

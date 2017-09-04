@@ -1,0 +1,169 @@
+ 
+ *{
+ margin:0px;
+ padding:0px;
+ }
+ body{
+	 
+ background-color:#F0F0F0;
+
+ font-family:Tahoma, Geneva, sans-serif;
+  }
+   #header{
+	  width:100%;
+  }
+  #welcome
+  {color:  #004687;
+      
+	 display:inline;
+	
+	margin-left:50%;
+	 font-size:30px;
+	 font-weight:200;
+	 text-align:right;
+  }
+ #logout{
+	margin-right:10px;
+	display:block;
+	
+	
+ width:100px;
+ font-size:14px;
+ color:#F0F0F0;
+ text-align:center;
+ background-color:#004687;
+ padding:10px;
+ 
+ cursor: pointer;
+ 
+ font-weight:bold;
+	text-transform:uppercase;
+}
+#button{
+	  display:inline;
+	  float:right;
+  }
+
+ #container1{
+ padding:10px;
+      padding-left:10px;
+	 width:550px;
+	 margin:auto;
+	 margin-top:70px;
+	 background-color:#B6B6B6;
+	 box-shadow:0 0 3px #999;
+	 color:#202020;
+	 border-style:solid;
+	 border-width:3px;
+	 border-color:#004687;
+	 font-weight:bold;
+ }
+ 
+ #fields
+ {    padding:5px 0 20px 35px;
+	 width:680px;
+	
+	 margin-top:50px;
+	 margin-left:350px;
+	 
+	 background-color:#B6B6B6;
+	 box-shadow:0 0 3px #999;
+	 color:#202020;
+	 border-style:solid;
+	 border-width:3px;
+	 border-color:#004687;
+	 font-weight:bold;
+	  display:none;
+ }
+ #container3{
+	 padding:5px 0 20px 20px;
+	 width:650px;
+	
+	 margin-top:50px;
+	 margin-left:350px;
+	 background-color:#F0F0F0;
+	 
+	 color:#202020;
+	
+	  display:none;
+ }
+ #book{
+	 
+	
+	 display:block;
+	
+	
+ width:100px;
+ font-size:14px;
+ color:#F0F0F0;
+ text-align:center;
+ background-color:#004687;
+ padding:10px;
+ margin-top:px;
+ cursor: pointer;
+ cursor: pointer;
+ font-weight:bold;
+	text-transform:uppercase;
+	 
+ }
+ #title
+ {
+	 width:100%;
+	 
+	 
+	
+	 box-shadow:0 0 3px #999;
+ }
+ 
+ #count_form{
+	 
+ padding:25px 10px 0 15px;
+ }
+ .input_count{
+	 padding:5px;
+	margin:10px;
+	font-size:18px;
+	
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+	 height:10px;
+	 width:50px;
+ padding:10px;
+ padding-top:10px;
+ font-size:18px;
+ }
+ .field_input{
+	 padding:5px;
+	margin:10px;
+	font-size:18px;
+	
+	border-style:solid;
+	 border-width:2px;
+	 border-color:#004687;
+	 font-size:18px;
+ }
+ #enter{
+	 display:block;
+	
+	
+ width:100px;
+ font-size:14px;
+ color:#F0F0F0;
+ text-align:center;
+ background-color:#004687;
+ padding:10px;
+ margin-top:px;
+ cursor: pointer;
+ cursor: pointer;
+ font-weight:bold;
+	text-transform:uppercase;
+ }
+ 
+ #enter:hover,#book:hover,#logout:hover{
+	 background-color: #B81D18;
+}
+#errorBox,#errorBox1{
+  font-weight:normal;
+	 color:#B81D18;
+ }

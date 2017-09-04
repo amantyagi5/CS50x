@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Sign In</title>
+<link rel="stylesheet" type="text/css" href="SignIn.css" />
+<script type="text/javascript" src="SignInFormScript.js"></script>
+</head>
+
+<body>
+<div id="title"><img src="title.jpg" alt="title" width="100%" height="250px"></div>
+
+<div id="container">
+ <center><h1>Sign In</h1></center>
+	  <div id="form">
+	  <div id="errorBox"></div>
+	  <form name="form" onSubmit="return Submit()" action="SignIn.php" method="POST">
+	   Username:
+	  <div id="username_form">
+	      <input type="text" name="username" value="" class="input_username" >
+	  </div>
+	  Password:
+	  <div id="password_form">
+	     <input type="password"  name="password" value="" class="input_password" >
+	  </div>
+	  <div>
+        <center><input type="submit" id="sign_in" name="submit" value="Sign In"></center>
+		
+      </div>	
+</form>
+</div>
+</div>
+</body>
+</html>
